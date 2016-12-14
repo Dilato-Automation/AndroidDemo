@@ -1,36 +1,15 @@
 package com.dilatoit.androiddemo;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.method.HideReturnsTransformationMethod;
-import android.text.method.PasswordTransformationMethod;
-import android.util.Log;
 import android.util.TypedValue;
-import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
-import android.view.WindowManager;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.CompoundButton;
-import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
-
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity  extends Activity implements View.OnClickListener,View.OnTouchListener {
     private Button button_1;
