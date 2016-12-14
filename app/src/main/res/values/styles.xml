@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -8,4 +8,36 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="table_content">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">35dip</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:background">#e0e0e0</item>
+        <item name="android:layout_margin">0.2dip</item>
+    </style>
+
+    <style name="table_content4">
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">35dip</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:background">#e0e0e0</item>
+        <item name="android:layout_margin">0.2dip</item>
+    </style>
+
+    <style name="table_content2">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25dip</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:background">#c8c8c8</item>
+        <item name="android:layout_margin">0.2dip</item>
+    </style>
+
+    <style name="table_content3">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">35dip</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+        <item name="android:background">#ff8c00</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_margin">0.2dip</item>
+    </style>
 </resources>
